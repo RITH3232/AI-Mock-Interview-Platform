@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Build Output
+dist/
+backend/dist/
+frontend/dist/
+
+# Local Database Files
+backend/data/db/
+
+# Logs
+logs/
+backend/logs/
+*.log
+
+# Environment Files
+.env
+backend/.env
+frontend/.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Test Coverage
+coverage/
+backend/coverage/
+frontend/coverage/
+
+# IDE Files
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+backend-springboot/target/
