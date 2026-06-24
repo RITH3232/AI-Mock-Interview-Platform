@@ -1,0 +1,87 @@
+{
+  "Google": {
+    "interviewStyle": "Algorithm-heavy, highly structured, focus on optimization and edge cases.",
+    "difficultyPattern": "Hard",
+    "focusAreas": ["Data Structures", "Algorithms", "System Design", "Scalability", "Googlyness"]
+  },
+  "Amazon": {
+    "interviewStyle": "Behavioral-heavy mixed with technical. Focus on Leadership Principles.",
+    "difficultyPattern": "Medium to Hard",
+    "focusAreas": ["Leadership Principles", "Data Structures", "System Design", "Customer Obsession"]
+  },
+  "Microsoft": {
+    "interviewStyle": "Practical problem solving, deep language knowledge, system design.",
+    "difficultyPattern": "Medium to Hard",
+    "focusAreas": ["Algorithms", "Object-Oriented Design", "System Architecture", "Debugging"]
+  },
+  "Adobe": {
+    "interviewStyle": "Focus on core computer science concepts, memory management, and data structures.",
+    "difficultyPattern": "Medium",
+    "focusAreas": ["OS", "DBMS", "Data Structures", "OOP"]
+  },
+  "Atlassian": {
+    "interviewStyle": "Pragmatic, real-world coding, system design, values alignment.",
+    "difficultyPattern": "Medium",
+    "focusAreas": ["Code Review", "System Design", "Values", "Algorithms"]
+  },
+  "Flipkart": {
+    "interviewStyle": "Heavy focus on machine coding, problem solving, and scale.",
+    "difficultyPattern": "Hard",
+    "focusAreas": ["Machine Coding", "System Design", "Data Structures", "Algorithms"]
+  },
+  "Walmart": {
+    "interviewStyle": "Core Java/Backend fundamentals, architecture, and DSA.",
+    "difficultyPattern": "Medium to Hard",
+    "focusAreas": ["Java", "Spring Boot", "Algorithms", "System Design"]
+  },
+  "Uber": {
+    "interviewStyle": "Extremely difficult algorithmic and deep dive system design rounds.",
+    "difficultyPattern": "Hard",
+    "focusAreas": ["System Design", "Algorithms", "Concurrency", "Architecture"]
+  },
+  "TCS": {
+    "interviewStyle": "Focus on core computer science concepts, object-oriented programming, and aptitude.",
+    "difficultyPattern": "Medium",
+    "focusAreas": ["Core Java", "DBMS", "Software Engineering", "Aptitude"]
+  },
+  "Infosys": {
+    "interviewStyle": "Scenario-based questions, core fundamentals, and basic algorithmic problem solving.",
+    "difficultyPattern": "Medium",
+    "focusAreas": ["Data Structures", "DBMS", "OS", "Object-Oriented Design"]
+  },
+  "Wipro": {
+    "interviewStyle": "Focus on language syntax, core CS concepts, and communication skills.",
+    "difficultyPattern": "Easy to Medium",
+    "focusAreas": ["Programming Fundamentals", "SQL", "Logical Reasoning"]
+  },
+  "Accenture": {
+    "interviewStyle": "Mix of technical aptitude, behavioral, and standard CS theory.",
+    "difficultyPattern": "Medium",
+    "focusAreas": ["Algorithms", "DBMS", "Communication", "Software Architecture"]
+  },
+  "Cognizant": {
+    "interviewStyle": "Focus on practical software development scenarios, database queries, and debugging.",
+    "difficultyPattern": "Medium",
+    "focusAreas": ["SQL", "Java/C++", "Debugging", "Data Structures"]
+  },
+  "Capgemini": {
+    "interviewStyle": "Assess analytical thinking, pseudocode generation, and database fundamentals.",
+    "difficultyPattern": "Medium",
+    "focusAreas": ["Pseudocode", "SQL", "DBMS", "Algorithms"]
+  },
+  "HCL": {
+    "interviewStyle": "Core engineering concepts, problem solving, and language-specific features.",
+    "difficultyPattern": "Easy to Medium",
+    "focusAreas": ["C/C++", "Networking", "OS", "Logical Reasoning"]
+  },
+  "IBM": {
+    "interviewStyle": "Deep focus on enterprise architecture, cloud basics, and core programming paradigms.",
+    "difficultyPattern": "Medium to Hard",
+    "focusAreas": ["Enterprise Architecture", "Cloud Concepts", "Data Structures", "System Design"]
+  },
+  "Deloitte": {
+    "interviewStyle": "Case study-based technical rounds, system design, and practical software applications.",
+    "difficultyPattern": "Medium",
+    "focusAreas": ["Case Studies", "System Design", "SQL", "Business Logic Integration"]
+  }
+}
