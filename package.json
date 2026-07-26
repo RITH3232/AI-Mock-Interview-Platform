@@ -1,0 +1,14 @@
+{
+  "name": "interview-iq",
+  "version": "1.0.0",
+  "description": "Enterprise-grade AI Interview Preparation Platform",
+  "private": true,
+  "workspaces": [
+    "frontend",
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspaces",
+    "build": "npm run build --workspaces",
+    "test": "npm run test --workspaces"
+  }
+}
