@@ -62,6 +62,13 @@ npm install
 npm run dev
 ```
 
+## Screenshots
+
+<!-- Add screenshots here, e.g.:
+![Dashboard](docs/screenshots/dashboard.png)
+![Interview Room](docs/screenshots/interview-room.png)
+-->
+
 ## Project Structure
 
 ```
