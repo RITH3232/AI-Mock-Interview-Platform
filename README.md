@@ -11,14 +11,13 @@ AI-powered mock interview platform for practicing interviews, getting instant AI
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)
 
 ## Features
-
-- 🔐 JWT-based authentication (register/login)
-- 📄 Resume upload and AI-driven resume analysis
-- 🤖 AI-generated interview questions (role-, resume-, and company-specific, with follow-ups)
-- 🎤 Live interview sessions with AI evaluation and scoring
-- 📊 Interview reports exported as PDF
-- 🏆 Gamification: achievements and leaderboard
-- 📈 Admin dashboard with platform-wide analytics
+-`JWT-based authentication (register/login)
+-Resume upload and AI-driven resume analysis
+-AI-generated interview questions (role-, resume-, and company-specific, with follow-ups)
+- Live interview sessions with AI evaluation and scoring
+- Interview reports exported as PDF
+- Gamification: achievements and leaderboard
+-  Admin dashboard with platform-wide analytics
 
 ## Tech Stack
 
