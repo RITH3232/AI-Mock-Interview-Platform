@@ -1,0 +1,41 @@
+version: '3.8'
+
+services:
+  mongodb:
+    image: mongo:6.0
+    container_name: interviewiq-mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+    networks:
+      - interviewiq-network
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: interviewiq-backend-springboot
+    ports:
+      - "5000:5000"
+    environment:
+      - PORT=5000
+      - MONGO_URI=mongodb://mongodb:27017/interviewiq
+      - JWT_SECRET=interviewiq_jwt_super_secret_key_2026
+      - REFRESH_TOKEN_SECRET=interviewiq_jwt_super_refresh_secret_key_2026
+      - AI_API_KEY=your_groq_api_key_here
+      # Add Cloudinary if needed
+      - CLOUDINARY_CLOUD_NAME=${CLOUDINARY_CLOUD_NAME}
+      - CLOUDINARY_API_KEY=${CLOUDINARY_API_KEY}
+      - CLOUDINARY_API_SECRET=${CLOUDINARY_API_SECRET}
+    depends_on:
+      - mongodb
+    networks:
+      - interviewiq-network
+
+volumes:
+  mongodb_data:
+
+networks:
+  interviewiq-network:
+    driver: bridge
